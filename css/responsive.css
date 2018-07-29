@@ -11,7 +11,8 @@
  */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+
+
 }
 
 /** Width between 768px to 991px
@@ -44,10 +45,26 @@
     padding-top: 15px;
     display: block;
   }
-  /* About */
-  .head-info .header-content .cmaster h1 {
-    font-size: 32px;
+
+
+  /* Header */
+  #header .container .header-content h1 {
+    font-size: 40px;
+    line-height: 60px;
   }
+
+  #header .container .header-content .typed {
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 0px 10px;
+  }
+
+
+
+
+
+  /* About */
   #about .div-img-bg {
     padding: 0;
   }
@@ -115,6 +132,25 @@
     padding-top: 15px;
     display: block;
   }
+
+
+  /* Header */
+  #header .container .header-content h1 {
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 300;
+    padding: 0px 10px;
+    /* text-align: center; */
+  }
+
+  #header .container .header-content .typed {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0px 10px;
+  }
+
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
