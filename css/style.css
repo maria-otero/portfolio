@@ -91,15 +91,16 @@ p {
 }
 
 .btn {
-  background: #333;
+  /* background: #333; */
   border: medium none;
-  border-radius: 0;
+  border-radius: 1px;
   color: #fff;
-  font-size: 12px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
   padding: 0 30px;
-  text-transform: uppercase;
+  margin: 5px 0px;
+  /* text-transform: uppercase; */
 }
 
 .btn:hover, .btn:focus {
@@ -387,15 +388,15 @@ nav ul li a {
   max-width: 100%;
 }
 
-.portfolio-thumbnail a .portfolio-txt {
+.portfolio-thumbnail .portfolio-txt {
   padding: 25px 0px;
   position: relative;
   text-align: left;
 }
 
-.portfolio-thumbnail a .portfolio-txt h4 {
+.portfolio-thumbnail .portfolio-txt h4 {
   display: block;
-
+  margin-bottom: 0px;
   font-size: 14px;
   color: #5a636d;
 
