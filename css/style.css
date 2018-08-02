@@ -272,18 +272,9 @@ nav ul li a {
   /* font-family: 'Cutive Mono', monospace; */
 }
 
-.header-content .list-social li {
-  float: left;
-  margin-right: 20px;
-}
-
-.header-content .list-social li i {
-  color: #fff;
-  font-size: 15px;
-}
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -321,9 +312,20 @@ nav ul li a {
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 90%;
   margin-bottom: 0;
   text-align: left;
+}
+
+.about-descr .list-social li {
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.about-descr .list-social li i {
+  color: #5a636d;
+  font-size: 25px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -333,7 +335,6 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
-  display: block;
 }
 
 #portfolio .portfolio-list {
@@ -349,9 +350,10 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #5a636d;
+  color: #999999;
   line-height: 16px;
   cursor: pointer;
+  font-family: 'Poppins', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -374,40 +376,32 @@ nav ul li a {
 #portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
-  height: auto;
   width: 100%;
 }
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
-  /* position: relative; */
 }
 
-.portfolio-thumbnail a img {
+.portfolio-thumbnail img {
   max-width: 100%;
 }
+
+/* ----- */
 
 .portfolio-thumbnail .portfolio-txt {
   padding: 25px 0px;
   position: relative;
-  text-align: left;
 }
 
-.portfolio-thumbnail .portfolio-txt h4 {
+.portfolio-thumbnail .portfolio-txt h4 a {
   display: block;
-  margin-bottom: 0px;
-  font-size: 14px;
-  color: #5a636d;
-
-  cursor: pointer;
-  font-weight: 500;
-
+  font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px 0;
-
-
-  text-transform: uppercase;
+  font-weight: 500;
+  color: #292929;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -415,7 +409,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.portfolio-thumbnail a .portfolio-txt a h4:hover {
+.portfolio-thumbnail .portfolio-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -424,7 +418,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.portfolio-thumbnail a .portfolio-txt p {
+.portfolio-thumbnail .portfolio-txt p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
