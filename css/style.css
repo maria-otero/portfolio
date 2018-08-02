@@ -91,21 +91,36 @@ p {
 }
 
 .btn {
-  /* background: #333; */
-  border: medium none;
-  border-radius: 1px;
-  color: #fff;
-  font-size: 16px;
+  background: white;
+  /* border: medium none; */
+  border-radius: 0;
+  color: #ac9251;
+  font-size: 12px;
   height: 30px;
-  line-height: 30px;
-  padding: 0 30px;
-  margin: 5px 0px;
+  line-height: 9px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   /* text-transform: uppercase; */
+  -webkit-box-shadow: 0px 3px 25px -2px rgba(172,146,81,1);
+  -moz-box-shadow: 0px 3px 25px -2px rgba(172,146,81,1);
+  box-shadow: 0px 3px 25px -2px rgba(172,146,81,1);
+}
+
+
+.btn .btn-circle {
+  border-radius: 15px;
+  width: 30px;
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  background: white;
+  color: #00bce1;
+  -webkit-box-shadow: 0px 3px 25px -2px rgba(0,188,225,1);
+  -moz-box-shadow: 0px 3px 25px -2px rgba(0,188,225,1);
+  box-shadow: 0px 3px 25px -2px rgba(0,188,225,1);
 }
+
 
 .padDiv {
   padding: 30px 20px;
