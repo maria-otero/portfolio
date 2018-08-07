@@ -31,7 +31,8 @@
 }
 
 .owl-theme .owl-dots {
-  text-align: right;
+  text-align:right;
+  margin-top:10
 }
 
 .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{
