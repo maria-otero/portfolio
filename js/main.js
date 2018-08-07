@@ -80,7 +80,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["– Hello  👋  ", "– My name is Maria J. Otero", "– I'm a graphic designer  🌈  ", "who is curious  🔎  about coding  👩‍💻 ", "– Scroll  ⬇️  to see my portfolio  👀 ...  "],
+      strings: ["– Hello  👋  ", "– My name is Maria J. Otero", "– I'm a graphic designer  🌈  ", "who is curious  🔎  about coding 👩🏻‍💻 ", "– Scroll  ⬇️  to see my portfolio  👀 ...  "],
       typeSpeed: 100,
       loop: false,
     });
@@ -105,5 +105,61 @@ $(document).ready(function() {
   });
 
 
+  // ========================================================================= //
+  //  OwlCarousel
+  // ========================================================================= //
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    animateOut: 'fadeOut',
+    video:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+  // ========================================================================= //
+  //  magnificPopup
+  // ========================================================================= //
+
+  // var magnifPopup = function() {
+  //   $('.popup-img').magnificPopup({
+  //     type: 'image',
+  //     removalDelay: 300,
+  //     mainClass: 'mfp-with-zoom',
+  //     gallery: {
+  //       enabled: false
+  //     },
+  //     zoom: {
+  //       enabled: true, // By default it's false, so don't forget to enable it
+
+  //       duration: 300, // duration of the effect, in milliseconds
+  //       easing: 'ease-in-out', // CSS transition easing function
+
+  //       // The "opener" function should return the element from which popup will be zoomed in
+  //       // and to which popup will be scaled down
+  //       // By defailt it looks for an image tag:
+  //       opener: function(openerElement) {
+  //         // openerElement is the element on which popup was initialized, in this case its <a> tag
+  //         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+  //         return openerElement.is('img') ? openerElement : openerElement.find('img');
+  //       }
+  //     }
+  //   });
+  // };
+
+
+  // // Call the functions
+  // magnifPopup();
 
 });

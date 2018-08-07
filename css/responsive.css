@@ -65,8 +65,6 @@
 
 
 
-
-
   /* About */
   
   #about .div-img-bg {
@@ -93,15 +91,15 @@
     display: inline-block;
   }
 
-  
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+  .portfolio-txt  .left-column{
+    width: 100%;
   }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+
+  .portfolio-txt .right-column{
+    width: 100%;
   }
+
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -188,14 +186,17 @@
     margin: 20px;
     display: inline-block;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+
+
+  .portfolio-txt  .left-column{
+    width: 100%;
   }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+
+  .portfolio-txt .right-column{
+    width: 100%;
   }
+
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -259,14 +260,15 @@
     margin: 10px;
     display: inline-block;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+
+  .portfolio-txt  .left-column{
+    width: 100%;
   }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+
+  .portfolio-txt .right-column{
+    width: 100%;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -329,14 +331,15 @@
     float: none;
     margin: 20px;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+
+  .portfolio-txt  .left-column{
+    width: 100%;
   }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+
+  .portfolio-txt .right-column{
+    width: 100%;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -399,14 +402,15 @@
     float: none;
     margin: 20px;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+
+  .portfolio-txt  .left-column{
+    width: 100%;
   }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+
+  .portfolio-txt .right-column{
+    width: 100%;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
