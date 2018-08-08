@@ -80,7 +80,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["– Hello 👋🏽", "– My name is Maria J. Otero", "– I'm a graphic designer 🌈", "who is curious about coding 👩🏽‍💻", "– Scroll ⏬ to see my portfolio 👀 ...  "],
+      strings: ["– Hello 👋🏽", "– My name is Maria J. Otero", "– I'm a graphic designer 🌈", "with a passion for the digital 👩🏽‍💻", "– Scroll ⏬ to see my portfolio 👀 ...  "],
       typeSpeed: 100,
       loop: false,
     });
