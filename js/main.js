@@ -80,7 +80,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["– Hello 👋🏽", "– My name is Maria J. Otero", "– I'm a graphic designer 🌈", "with a passion for the digital 👩🏽‍💻", "– Scroll ⏬ to see my portfolio 👀 ...  "],
+      strings: ["– Hello 👋🏽", "– My name is Maria J. Otero", "– I'm a designer 🌈", "who is passionate about digital world 👩🏽‍💻", "– Scroll ⏬ to see my portfolio 👀 ...  "],
       typeSpeed: 100,
       loop: false,
     });
@@ -98,7 +98,7 @@ $(document).ready(function() {
   });
 
   $('#portfolio-flters li').on( 'click', function() {
-    $("#portfolio-flters li").removeClass('filter-active');
+    $("#portfolio-filters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
     portfolioIsotope.isotope({ filter: $(this).data('filter') });

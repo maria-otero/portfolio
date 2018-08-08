@@ -246,10 +246,6 @@ nav ul li a {
   text-transform: capitalize;
 }
 
-/* .logo img {
-  width: 100px;
-  height: 50px;
-} */
 
 .responsive {
   display: none;
@@ -402,13 +398,13 @@ nav ul li a {
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 50px;
+  height: 100%;
   width: 100%;
 }
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
-  overflow: hidden;
+  /* overflow: visible; */
 }
 
 
@@ -427,7 +423,7 @@ nav ul li a {
 
 .portfolio-thumbnail .portfolio-txt {
   padding: 10px 0px;
-  position: relative;
+  /* position: relative; */
   text-align: left;
 }
 
@@ -465,6 +461,7 @@ nav ul li a {
 .bold-text {
   font-weight: 700;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
