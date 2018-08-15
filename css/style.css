@@ -476,6 +476,13 @@ nav ul li a {
 }
 
 
+.holi {
+  /* max-width: 100%; */
+  border-radius: 5px;
+  border: 1px transparent;
+}
+
+
 .owl-theme .owl-dots {
   text-align: right;
   margin-top: 12px !important;
