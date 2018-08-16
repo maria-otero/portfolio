@@ -51,11 +51,13 @@
   #header .container .header-content h1 {
     font-size: 40px;
     line-height: 60px;
+    text-align: left;
   }
   #header .container .header-content .typed {
     font-size: 30px;
     font-weight: 200;
     line-height: 30px;
+    text-align: left;
   }
 
   /* About */
@@ -129,14 +131,14 @@
 
   /* Header */
   #header .container .header-content h1 {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 50px;
     font-weight: 300;
     padding: 0px 10px;
-    /* text-align: center; */
+    text-align: left;
   }
   #header .container .header-content .typed {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     padding: 0px 10px;
