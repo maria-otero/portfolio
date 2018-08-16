@@ -278,82 +278,15 @@ nav ul li a {
 
 .header-content h1 {
   font-size: 52px;
-  /* letter-spacing: 0.03em; */
   font-weight: 200;
   margin-bottom: 10px;
   line-height: 80px;
-  /* text-transform: uppercase; */
-  /* color: #fff; */
 }
 
 .header-content h2 {
   font-size: 35px;
   font-weight: 100;
-  /* font-style: italic; */
-  /* font-family: 'andale Mono'; */
-  /* font-family: 'Cutive Mono', monospace; */
 }
-
-/*----------------------------------------------------------------------------------*/
-/*  Header - Pulsing button
-/*-----------------------------------------------------------------------------------*/
-
-
-/* .pulsing-btn-1,
-.pulsing-btn-2 {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-}
-
-.container-pulsing-btn {
-  display: flex;
-  width: 100%;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.pulsing-btn-1 {
-  animation: pulse 1.2s ease infinite;
-  background: #5a636d;
-}
-
-.pulsing-btn-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 99;
-  border: none;
-  background: #5a636d2f;
-  background-size: 18px;
-  cursor: pointer;
-  outline: none;
-}
-
-.pulsing-btn-2 a {
-  position: absolute;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 700;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    opacity: 0.3;
-  }
-  100% {
-    transform: scale(1.5);
-    opacity: 0;
-  }
-} */
-
-
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -406,15 +339,10 @@ nav ul li a {
   margin-top: 30px;
 }
 
-/* .about-descr .list-social li i {
-  color: #5a636d;
-  font-size: 25px;
-} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
-
 
 
 #portfolio {
@@ -496,18 +424,6 @@ nav ul li a {
   /* position: relative; */
   text-align: left;
 }
-
-
-/* .portfolio-txt .left-column{
-  width: 40%;
-  float: left;
-}
-
-.portfolio-txt .right-column{
-  width:60%;
-  float: left;
-  margin-bottom: 50px;
-} */
 
 
 .portfolio-txt h4 {
