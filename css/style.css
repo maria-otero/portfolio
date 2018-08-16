@@ -465,7 +465,9 @@ nav ul li a {
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
-  /* overflow: visible; */
+  float: left;
+  box-sizing: border-box;
+
 }
 
 
