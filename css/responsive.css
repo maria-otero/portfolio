@@ -77,6 +77,10 @@
     margin-bottom: 0;
   }
 
+  #about div.col-lg-4 {
+    display: none;
+  }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
@@ -165,6 +169,9 @@
     max-width: 100%;
     margin-bottom: 0;
   }
+  #about div.col-lg-4 {
+    display: none;
+  }
 
   /* portfolio */
   #portfolio .portfolio-list .nav li {
@@ -235,6 +242,9 @@
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
+  }
+  #about div.col-lg-4 {
+    display: none;
   }
 
   /* portfolio */
@@ -307,6 +317,9 @@
     max-width: 100%;
     margin-bottom: 0;
   }
+  #about div.col-lg-4 {
+    display: none;
+  }
 
   /* portfolio */
   #portfolio .portfolio-list .nav li {
@@ -377,7 +390,9 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-
+  #about div.col-lg-4 {
+    display: none;
+  }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
