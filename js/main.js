@@ -72,7 +72,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hello 👋🏽", "My name is Maria", "I'm a graphic and ux/ui designer 👩🏽‍💻", "Scroll ⏬ to see my portfolio 👀 ..."],
+      strings: ["Hello", "My name is Maria", "I'm a graphic and ux/ui designer", "Scroll down to see my work : &rpar;"],
       typeSpeed: 100,
       loop: false,
     });
