@@ -35,8 +35,7 @@
 html,
 body {
     height: 100%;
-    /* font-family: 'PT Sans', sans-serif; */
-    font-family: 'Rubik', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     line-height: 1.8;
     color: #999
 }
@@ -81,6 +80,11 @@ a {
     font-size: 11px;
 }
 
+p > span.highlight {
+    background: linear-gradient(to right, #01d4db 0%, #018397 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
 
 /* typography
 ==================================================*/
@@ -89,18 +93,18 @@ h1 {
     color: #393939;
     font-size: 60px;
     text-transform: uppercase;
-}
-
-h2 {
-    line-height: 2;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
 }
 
 h3 {
     color: #393939;
+    font-family: 'Overpass', sans-serif;
 }
 
 h5 {
     color: #ffbf00;
+    font-family: 'Overpass', sans-serif;
 }
 
 
@@ -556,10 +560,13 @@ b i:last-child {
 
 .no-js .box-words-wrapper b {
     opacity: 0;
+    left: 0;
+    top: 0;
 }
 
 .no-js .box-words-wrapper b.is-visible {
     opacity: 1;
+    
 }
 
 .box-headline.rotate-2 .box-words-wrapper {
