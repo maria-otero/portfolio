@@ -544,7 +544,7 @@ b i:last-child {
 .box-headline {
     font-size: 60px;
     line-height: 1.5;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .box-words-wrapper {
