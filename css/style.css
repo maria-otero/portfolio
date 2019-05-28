@@ -448,13 +448,16 @@ h5 {
 }
 
 .box-intro em {
-    font-style: normal;
-    text-transform: uppercase
+    /* font-style: normal; */
+    font-size: 65px;
+    line-height: 1.5;
+    font-weight: 400;
+    /* text-transform: uppercase */
 }
 
-b i:last-child {
+/* b i:last-child {
     color: #ffbf00 !important;
-}
+} */
 
 .box-intro h5 {
     letter-spacing: 4px;
