@@ -1132,6 +1132,9 @@ textarea:focus {
 ==================================================*/
 
 @media (max-width: 991px) {
+    .box-logo h3 {
+        font-size: 21px;
+    }
     .box-headline {
         font-size: 50px;
     }
@@ -1152,6 +1155,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 670px) {
+    .box-logo h3 {
+        font-size: 20px;
+    }
     .box-headline {
         font-size: 40px;
     }
@@ -1178,6 +1184,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 520px) {
+    .box-logo h3 {
+        font-size: 18px;
+    }
     .box-headline {
         font-size: 35px;
     }
@@ -1190,6 +1199,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 420px) {
+    .box-logo h3 {
+        font-size: 16px;
+    }
     .box-headline {
         font-size: 25px;
     }
